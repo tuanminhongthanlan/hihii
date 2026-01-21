@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>hihi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>tm co dieu nay muon noi…</h1>
+        <p>em co muon lam ngiu tm khong?</p>
+        <button onclick="yes()">dong y</button>
+        <button id="no">khong</button>
+    </div>
+    <script src="script.js"></script>
+<audio id="bgm" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.addEventListener("click", function () {
+    document.getElementById("bgm").play();
+}, { once: true });
+</script>
+</body>
+</html>
